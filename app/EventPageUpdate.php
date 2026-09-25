@@ -27,6 +27,7 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\EventPageUpdate whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\EventPageUpdate whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\EventPageUpdate whereWikiId($value)
+ * @method static \Database\Factories\EventPageUpdateFactory factory($count = null, $state = [])
  *
  * @mixin \Eloquent
  */

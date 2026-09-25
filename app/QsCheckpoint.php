@@ -4,7 +4,24 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Support\Carbon;
 
+/**
+ * @property int $id
+ * @property int $checkpoint
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint whereCheckpoint($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsCheckpoint whereUpdatedAt($value)
+ *
+ * @mixin \Eloquent
+ */
 class QsCheckpoint extends Model {
     public const CHECKPOINT_ID = 0;
 

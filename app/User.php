@@ -55,6 +55,10 @@ use Laravel\Passport\Token;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereVerified($value)
  *
+ * @property int $is_admin
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|User whereIsAdmin($value)
+ *
  * @mixin \Eloquent
  */
 class User extends Authenticatable implements MustVerifyEmail {

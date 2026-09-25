@@ -18,6 +18,19 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  *
+ * @method static \Database\Factories\ComplaintRecordFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereDispatchedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereMailAddress($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereOffendingUrls($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereReason($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|ComplaintRecord whereUpdatedAt($value)
+ *
  * @mixin \Eloquent
  */
 class ComplaintRecord extends Model {

@@ -30,6 +30,14 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\QsBatch whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\QsBatch whereWikiId($value)
  *
+ * @property int $processing_attempts
+ * @property int $failed
+ *
+ * @method static \Database\Factories\QsBatchFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsBatch whereFailed($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsBatch wherePendingSince($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|QsBatch whereProcessingAttempts($value)
+ *
  * @mixin \Eloquent
  */
 class QsBatch extends Model {

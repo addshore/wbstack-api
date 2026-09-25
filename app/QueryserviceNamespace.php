@@ -27,6 +27,7 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\QueryserviceNamespace whereNamespace($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\QueryserviceNamespace whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\QueryserviceNamespace whereWikiId($value)
+ * @method static \Database\Factories\QueryserviceNamespaceFactory factory($count = null, $state = [])
  *
  * @mixin \Eloquent
  */
